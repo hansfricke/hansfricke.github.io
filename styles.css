@@ -1,0 +1,395 @@
+
+
+body {
+  font-size: 16px;
+  color: #3973ac;
+  background-color: white;
+  font-family: 'Lato';
+  margin: 0;
+  padding: 0;
+}
+
+/** HEADER **/
+/*.header{
+  background-color: white;
+  border-radius: 0;
+  height: 120px;
+  position: relative;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #3973ac;
+}*/
+
+#name{
+  color: #3973ac;
+  text-align: center;
+}
+
+#name-box{
+  margin: 30px auto 10px auto;
+  float: left;
+}
+
+
+#logo-img {
+  background: url('images/HF.jpg') no-repeat;
+  width: 236px; 
+  height: 232px;
+  position: relative;
+  margin: 10px auto;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 2px 2px white inset;
+}
+
+#foto-box{
+  margin: 10px auto;
+  float: left;
+}
+
+
+.footer{
+  border-radius: 0;
+  border: 0;
+  height: 46px;
+  width: 100%;
+  background-color: #3973ac;
+  top: 0;
+}
+
+.hundret{
+  min-height: 100%;
+}
+
+.description{
+  float: left;
+  text-align: justify;
+  color: #3973ac;
+  margin: 10px auto;
+}
+
+
+.link-div{
+  float: right;
+}
+
+.icon{
+  color: white;
+  font-size: 30px;
+  margin: auto 5px;
+
+}
+
+.icon:hover{
+  color: #9fbfdf;
+}
+
+
+.mylink{
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #3973ac;
+  background-color: white;
+  color: #3973ac;
+  font-size: 1.5em;
+  margin: 5px 0;
+  text-align: left;
+  font-weight: 300;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  padding: 14px 15px;
+  cursor: pointer;
+  outline: 0;
+  transition: 0.3s ease;
+}
+
+.mylink:hover {
+    /*background-color: #3973ac; */
+    color: #9fbfdf;
+    border-bottom: 1px solid #9fbfdf;
+/*    border-radius: 4px;*/
+}
+
+.center-ver{
+  margin-bottom: auto;
+  margin-top: auto;
+  float: left;
+}
+
+
+
+/*Reasearch formatting*/
+.nav-bar{
+  width: 100%;
+  min-height: 46px;
+  background-color: #3973ac;
+}
+
+.research-link-text{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 8px;
+}
+
+
+.research-link{
+  float: left;
+  width: 100%;
+  background-color: #3973ac;
+}
+
+.intext-link{
+  color: #3973ac;
+  font-weight: 500;
+}
+
+.home{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.homec{
+  text-align: right;
+  color: white;
+  font-size: 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home:hover{
+  color: #9fbfdf;
+}
+
+.research-link-text:hover{
+  color:#9fbfdf;
+}
+
+.intext-link:hover{
+  color:#9fbfdf;
+}
+
+.mytitle{
+  color: #3973ac;
+}
+
+.title-box{
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.abstract{
+  color: #3973ac;
+  margin: 20px 0 30px 0;
+  text-align: justify;
+  /*border-top: 1px solid #9fbfdf;*/
+
+}
+
+.publication-type{
+  color: #3973ac;
+ display: inline-block;
+
+}
+
+.paper-title{
+  color: #3973ac;
+  margin-bottom: 10px;
+  font-variant-caps: small-caps;
+  text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a .paper-title:hover {
+    color: #9fbfdf;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.journal-title{
+  color: #3973ac;
+  font-style: italic;
+}
+
+.authors{
+  color: #3973ac;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.citation{
+  color: #3973ac;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+
+.myarticle{
+  margin-top: 30px;
+}
+
+.center-small{
+  text-align: center;
+  margin: 0 auto;
+}
+.extrabmargin{
+  margin-bottom: 40px;
+}
+
+.arrow-up {
+  width: 0; 
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 18px solid #3973ac;
+  transition: all 0.3s ease;
+}
+
+.arrow-up:hover {
+  border-bottom: 18px solid #9fbfdf;
+}
+
+
+
+.arrow-up-box{
+  display: inline-block;
+  border: 0 solid #3973ac;
+  border-radius: 2px;
+  padding: 3px;
+  margin-right: 10px;
+}
+
+.type-box{
+  min-height: 50px;
+}
+
+.flright{
+  float: right;
+}
+
+
+/*contact styling*/
+
+.contact-text{
+  color: #3973ac;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#map{
+  height: 250px;
+  width: 100%;
+  border:0;
+  box-shadow: 0 0 2px 2px white inset;
+  margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 720px){
+
+  .order1 {
+    order: 1;
+  }
+
+  .order2{
+    order: 2;
+  }
+
+  .order3{
+    order: 3;
+  }
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mylink{
+
+/*    margin: 20px 0;*/
+    text-align: left;
+
+  }
+
+  #name{
+    color: #3973ac;
+    text-align: left;
+  }
+
+  #name-box{
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    float: left;
+  }
+
+  .center-small{
+    text-align: left;
+  }
+
+/*  .abstract:before{
+    property: value;
+    content: "";
+    width: 0;
+    height: 0;
+    color: #9fbfdf;
+    position: absolute;
+    border-width:  0.5px 85px;
+    border-style: solid;
+    border-color: #9fbfdf;
+    left: 21px;
+  }*/
+
+  .abstract{
+    border-top: 0 solid #9fbfdf;
+  }
+
+  .home{
+    text-align: right;
+    float: right;
+  }
+
+  #map{
+    margin-top: 0;
+  }
+
+  .research-link-text{
+  text-align: left;
+}
+
+
+}
+
+
+@media only screen and (min-width: 721px) and (max-width: 830px) {
+  .hidden-md{
+    display: none;
+  }
+  .col-1-md{
+    width: 96%;
+  }
+
+  .home{
+    text-align: center;
+  }
+
+  .center-small{
+    float: left;
+  }
+
+}
+
+

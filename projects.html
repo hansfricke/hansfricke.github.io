@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="//fonts.googleapis.com/css?family=Lato" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="simple-grid.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+
+<nav class="nav-bar" id="title-research">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 hidden-sm hidden-md"></div>
+            <div class="col-2  col-1-md">
+                <a href="index.html" class="research-link"><i class="fa fa-home home"></i></a>    
+            </div>   
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+        <div class="row title-box">
+            <div class="col-12 ">
+                <h1 class="mytitle center-small">Projects</h1>
+            </div>   
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row"> 
+            <div class="col-12"> <!-- start indented content -->
+
+
+
+                <div class="myarticle"> <!-- start article no 1 -->
+                    <h2 class="paper-title">Sending gift card codes to Qualtrics online survey respondents with python</h2>  
+    
+                    <p class="abstract">
+                  Social science researchers collect much of their data through online surveys. In many cases, they offer incentives to the participants. At CEPA Labs at Stanford, our survey participants receive a gift card code from Amazon. 
+                  However, sending these gift card codes to respondents is challenging. In Qualtrics, our online survey platform, we can embed a code for each potential respondent, and then trigger an email with the code attached after their survey is completed. While this is a very convenient feature, it has one substantial drawback. We need to purchase a code for each potential respondent up front, yet many participants may never answer. There is an option of waiting until the survey is closed and then purchasing the codes for all respondents at once. However, respondents tend to become impatient if they do not receive their code in a timely manner and start reaching out to you and possibly to the IRB office. This creates administrative work and might reduce response rates if potential respondents can talk to each other about their experience.  
+                    </p>
+                    <p class="abstract">
+                  Given these problems, we decided to send codes using python and the Qualtrics API. This way, we can send codes immediately but do not need to purchase a code for each potential respondent upfront. We used Amazon Incentives API, which allows its users to request gift card codes on demand. Codes are generated on the fly, and the amount is charged to our account. I wrote a python script that checks Qualtrics continuously for new responses and then sends each new respondent a code. In a loop, it downloads (new) responses, writes their contact information to an SQL database, assigns a code, and adds it to the data base, and then sends the codes by email or text message. 
+                    </p> 
+                    <p class="abstract">  
+                  You can find more detail in my <a href="https://cepa.stanford.edu/cepalabs/sending-gift-card-codes-qualtrics-online-survey-respondents-python" class="intext-link">blog post</a> that describes a python program that gets the codes from a .csv file and sends them out by email. The original program fetched the codes from the Amazon Incentives API and sent them over the EZtexting.com API. Both versions and other scripts for survey management can be found on <a href="https://github.com/hansfricke/SurveyGiftCards" class="intext-link">GitHub</a>.
+                    </p>   
+                </div> <!-- end project no 1 -->        
+            </div>
+        </div> <!-- end container -->    
+    </div>    
+
+</body>
+</html>
+
+
