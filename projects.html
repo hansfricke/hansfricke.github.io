@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129893786-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-129893786-1');
+    </script>   
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,6 +46,23 @@
     <div class="container">
         <div class="row"> 
             <div class="col-12"> <!-- start indented content -->
+
+
+                 <div class="myarticle"> <!-- start project no 3 -->
+                    <h2 class="paper-title">Machine learning engineer nano degree</h2>  
+    
+                  <p class="abstract">
+                  
+                  In December 2017, I decided to enroll into the Udacity Machine Learning Engineer Nano Degree program. At first, I was unsure if it would be the right fit, since I had substantial training in supervised learning in grad school. Nonetheless, I hoped to familiarize myself further with unsupervised learning, reinforcement learning, and deep learning; I also hoped to get more experience using machine learning methods in python. My overall experience was positive. The course solidified existing knowledge and acquainted me we more advanced topics such as reinforcement learning and convolutional neural networks. I challenged myself to go beyond applying familiar algorithms such as regression trees and lasso regressions and to dig into new methods including stochastic gradient descent and gradient boosting. My main complaint about this program is that the python coding for the projects was very limited since much of the code was pre-written. Similarly, the projects did not delve deep into some of the more technical aspects of the methods. The all my submissions can be found on <a href="https://github.com/hansfricke/NanoDegreeML" class="intext-link" target="_blank">GitHub</a>
+                  </p>
+                  <p class="abstract">
+                  For my capstone project, I chose the Kaggle data set from the DonorsChoose.com Application Screening competition. DonorsChoose.com empowers public school teachers from across the country to request much-needed materials and experiences for their students. It receives hundreds of thousands of project proposals each year for classroom projects in need of funding. The objective of this project was to predict proposal acceptance based on the proposal information. The data included essays and meta data such as subject, resources requested, and state for each proposal. I chose the project because it aligned with my interest in education and because it allowed me to apply text analysis methods to extract data from the proposals, unsupervised learning methods for dimensionality reduction, and supervised learning algorithms to predict acceptance. 
+                  </p>
+                  <p class="abstract">  
+                  I chose two algorithms to reduce the dimensionality of the text data: non-negative matrix factorization and principal component analysis. As for supervised learning algorithms, I used random forests, stochastic gradient descent with support vector machines, and logit regressions as a baseline model. The model parameters were determined using the area under the ROC curve in the grid search. The final models were tested on an independent test sample. Overall, the models did not perform well. The bench line model, logistic regression, reached an accuracy similar to that of a simple majority rule and area under the ROC curve similar to random classification. The random forest and SDG with principal components extracted from the text data performed slightly better based on the area under the ROC curve but worse based on accuracy. Given that the majority of proposals was approved, this suggest that these models put more weight on classifying rejected proposals correctly than approved proposals. Although the models were not particularly successful, the project was a great learning experience. All jupyter notebookd are on <a href="https://github.com/hansfricke/NanoDegreeML/tree/master/Capstone" class="intext-link" target="_blank">GitHub</a>.
+                    </p> 
+                </div> <!-- end project no 3 --> 
+
 
             	 <div class="myarticle"> <!-- start project no 2 -->
                     <h2 class="paper-title">Scraping survey files from Qualtrics with Splinter</h2>  
